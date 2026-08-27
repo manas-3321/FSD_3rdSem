@@ -32,3 +32,4 @@ process.nextTick(() => {
 Promise.resolve().then(() => {
     console.log("5: Promise.then (microtask)");
 });
+console.log('6: End(sync)');
